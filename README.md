@@ -9,7 +9,7 @@ header followed by either a tuple array of data OR a private data structure.
 
 Tuple Mode
 ----------
-'''
+```
 +------------------------+
 | IPCT header            |
 |   route (optional)     |
@@ -24,7 +24,7 @@ Tuple Mode
 +------------------------+
 | etc ...................|
 +------------------------+
-'''
+```
 (example 1 - IPCT header with tuples)
 
 The tuple data is either fixed size or variable size and the tuples
@@ -39,7 +39,7 @@ provides flexibility over data expression and data density.
 
 Private Data Mode
 -----------------
-'''
+```
 +------------------------+
 | IPCT header            |
 |   route (optional)     |
@@ -48,7 +48,7 @@ Private Data Mode
 +------------------------+
 | Private data block     |
 +------------------------+
-'''
+```
 (example 2 - IPCT header with private data)
 
 The private data can be anything - The primary use case is C data structures
